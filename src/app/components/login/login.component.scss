@@ -1,0 +1,26 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    text-align:center;
+    .container_form {
+        display: block;
+        padding: 10em;
+        background-color: white;
+        .form_title{
+            text-align: initial;
+            font-size: 35px;
+            font-weight: bolder;
+            margin-bottom: 40px;
+        }
+        .form_container_input {
+            display: grid;
+            width: 40%;
+            .form_input {
+                margin: 5px 0px 5px 0px;
+            }
+            .form_btn{
+                padding: 10px;
+            }
+        }
+    }
+}
